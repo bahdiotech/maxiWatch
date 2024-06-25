@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components { 
+    .other-screens {
+        @apply other:space-y-6 other:absolute dark:other:bg-neutral-900 other:h-screen other:left-0 other:w-4/5 other:top-14 
+    }
+    main {
+        @apply other:top-10
+    }
+    .adminInput {
+        @apply p-1 rounded-md bg-neutral-200 w-full text-black placeholder:text-gray-500
+    }
+} 
+

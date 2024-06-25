@@ -1,0 +1,11 @@
+django
+djangorestframework
+markdown  
+django-filter
+psycopg2
+requests
+drf-spectacular
+drf-spectacular
+Pillow
+uwsgi
+django-cors-headers

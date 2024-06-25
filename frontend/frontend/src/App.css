@@ -1,0 +1,9 @@
+/* @font-face {
+  font-family: "SensationBold";
+  src: local("SensationBold"),
+   url("./assets/fonts/sansation/Sansation_Bold.ttf") format("truetype");
+  font-weight: bold;
+ } */
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Nova+Cut&family=Nova+Flat&family=Nova+Oval&family=Nova+Round&family=Nova+Script&family=Nova+Slim&family=Nova+Square&display=swap');
+ 
