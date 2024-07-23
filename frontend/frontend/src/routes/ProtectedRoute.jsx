@@ -7,5 +7,5 @@ export const ProtectedRoute = ({children}) => {
 
 export const UnavailRoute = ({children}) => {
   const token = sessionStorage.getItem('token')
-  return !token ? children : <Navigate to='/' />
+  return token ? <Navigate to='/' /> : children
 }

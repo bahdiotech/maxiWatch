@@ -7,5 +7,5 @@ export const AdminProtected = ({children}) => {
 }
 
 export const AdminUnAvailRoute = ({children}) => {
-  return !adminToken ? children : <Navigate to='/' />
+  return adminToken ? <Navigate to='/' /> : children
 }
